@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/website-orman-isletme-sefligi/',
+  base: '/', // Custom domain, no sub-path needed
 })
